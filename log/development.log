@@ -1089,3 +1089,7 @@ Errno::ECONNRESET (Connection reset by peer):
 Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
 Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.8ms)
 Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 16 18:13:16 -0400 2011
+Rendered test_app/index.html.haml (1.4ms)
