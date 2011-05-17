@@ -1093,3 +1093,687 @@ Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/
 
 Started GET "/" for 127.0.0.1 at Mon May 16 18:13:16 -0400 2011
 Rendered test_app/index.html.haml (1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 16 18:20:41 -0400 2011
+Rendered test_app/index.html.haml (2.4ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 18:20:42 -0400 2011
+
+Errno::ECONNRESET (Connection reset by peer):
+  lib/request.rb:36:in `api_call'
+  lib/request.rb:24:in `send'
+  lib/request.rb:24:in `pay'
+  lib/test_app.rb:22:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 16 19:42:52 -0400 2011
+Rendered test_app/index.html.haml (1.4ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 19:42:54 -0400 2011
+
+NameError (undefined local variable or method `data' for #<Paypal::Request:0x101eecd00>):
+  lib/request.rb:23:in `pay'
+  lib/test_app.rb:22:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.4ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 19:46:21 -0400 2011
+
+NameError (undefined local variable or method `data' for #<Paypal::Request:0x101f75d58>):
+  lib/request.rb:23:in `pay'
+  lib/test_app.rb:22:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.8ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.6ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 19:46:23 -0400 2011
+
+NameError (undefined local variable or method `data' for #<Paypal::Request:0x10182fd00>):
+  lib/request.rb:23:in `pay'
+  lib/test_app.rb:22:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.1ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 19:46:25 -0400 2011
+
+NameError (undefined local variable or method `data' for #<Paypal::Request:0x1015a3618>):
+  lib/request.rb:23:in `pay'
+  lib/test_app.rb:22:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.9ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 19:46:38 -0400 2011
+
+SyntaxError ((eval):1:in `pay': compile error
+(eval):1: unknown regexp options - Pay):
+  lib/request.rb:24:in `pay'
+  lib/test_app.rb:22:in `eval'
+  lib/request.rb:24:in `pay'
+  lib/test_app.rb:22:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.1ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 19:48:08 -0400 2011
+
+SyntaxError ((eval):1:in `pay': compile error
+(eval):1: unknown regexp options - Pay):
+  lib/request.rb:24:in `pay'
+  lib/test_app.rb:22:in `eval'
+  lib/request.rb:24:in `pay'
+  lib/test_app.rb:22:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.9ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 19:48:10 -0400 2011
+
+SyntaxError ((eval):1:in `pay': compile error
+(eval):1: unknown regexp options - Pay):
+  lib/request.rb:24:in `pay'
+  lib/test_app.rb:22:in `eval'
+  lib/request.rb:24:in `pay'
+  lib/test_app.rb:22:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.8ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 19:48:51 -0400 2011
+
+NameError (undefined local variable or method `call_type' for #<Paypal::HttpConnection:0x101f653e0>):
+  lib/http_connection.rb:8:in `initialize'
+  lib/http_connection.rb:8:in `each'
+  lib/http_connection.rb:8:in `initialize'
+  lib/request.rb:26:in `new'
+  lib/request.rb:26:in `pay'
+  lib/test_app.rb:22:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.4ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 19:50:53 -0400 2011
+
+TypeError (can't convert Net::HTTPOK into String):
+  lib/request.rb:26:in `pay'
+  lib/test_app.rb:22:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.9ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 19:55:23 -0400 2011
+
+TypeError (can't convert Net::HTTPOK into String):
+  lib/request.rb:26:in `pay'
+  lib/test_app.rb:22:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.8ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 20:00:27 -0400 2011
+
+ArgumentError (wrong number of arguments (2 for 1)):
+  lib/request.rb:27:in `initialize'
+  lib/request.rb:27:in `new'
+  lib/request.rb:27:in `pay'
+  lib/test_app.rb:22:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.9ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.4ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 20:01:26 -0400 2011
+
+NoMethodError (undefined method `success?' for #<Paypal::ApCommand:0x101f2f790>):
+  lib/test_app.rb:24:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.1ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 20:19:39 -0400 2011
+
+NoMethodError (undefined method `success?' for #<Paypal::ApCommand:0x1018009d8>):
+  lib/test_app.rb:24:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.7ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 20:25:22 -0400 2011
+
+NameError (uninitialized constant Paypal::Response::ApCommand):
+  lib/response.rb:11:in `initialize'
+  lib/response.rb:11:in `each'
+  lib/response.rb:11:in `initialize'
+  lib/request.rb:27:in `new'
+  lib/request.rb:27:in `pay'
+  lib/test_app.rb:22:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.6ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 20:26:48 -0400 2011
+
+NoMethodError (undefined method `approve_paypal_payment_url' for #<Paypal::Response:0x101f2f790>):
+  lib/test_app.rb:25:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.5ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.2ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 20:29:06 -0400 2011
+
+NoMethodError (undefined method `lowercase' for "payKey":String):
+  lib/response.rb:18:in `payment_url'
+  lib/test_app.rb:25:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.7ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 20:30:06 -0400 2011
+
+NoMethodError (undefined method `redirect_to' for #<TestApp:0x1021554c0>):
+  lib/test_app.rb:25:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.4ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.4ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 20:31:53 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.8ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.5ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 20:32:01 -0400 2011
+
+
+Started GET "/" for 127.0.0.1 at Mon May 16 20:32:56 -0400 2011
+Rendered test_app/index.html.haml (5.3ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 20:33:00 -0400 2011
+
+
+Started GET "/download" for 127.0.0.1 at Mon May 16 20:43:53 -0400 2011
+Rendered test_app/download.html.haml (3.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 16 20:46:26 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 16 20:46:29 -0400 2011
+Rendered test_app/index.html.haml (1.5ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 20:46:31 -0400 2011
+
+
+Started GET "/download" for 127.0.0.1 at Mon May 16 20:47:53 -0400 2011
+Rendered test_app/download.html.haml (1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 16 20:55:48 -0400 2011
+Rendered test_app/index.html.haml (1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 16 22:26:17 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (12.4ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 16 22:26:19 -0400 2011
+Rendered test_app/index.html.haml (1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 16 22:26:20 -0400 2011
+Rendered test_app/index.html.haml (1.4ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 22:26:23 -0400 2011
+
+NameError (uninitialized constant Paypal::Config):
+  lib/request.rb:16:in `initialize'
+  lib/test_app.rb:11:in `new'
+  lib/test_app.rb:11:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.2ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 22:30:04 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (18.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (27.1ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 22:30:06 -0400 2011
+
+
+Started GET "/" for 127.0.0.1 at Mon May 16 23:08:03 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 16 23:08:06 -0400 2011
+Rendered test_app/index.html.haml (1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 16 23:08:08 -0400 2011
+Rendered test_app/index.html.haml (1.4ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 23:08:09 -0400 2011
+
+NoMethodError (undefined method `define_paypal' for Paypal::Request:Class):
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `eval'
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `each'
+  lib/request.rb:9:in `initialize'
+  lib/test_app.rb:11:in `new'
+  lib/test_app.rb:11:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.8ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.2ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 23:18:20 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.1ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 23:18:22 -0400 2011
+
+NameError (undefined local variable or method `payset_payment_optionspreapprovalpayment_detailspreapproval_detailscancel_preapprovalconvert_currencyrefund' for #<Paypal::Request:0x10183cc30>):
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `eval'
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `each'
+  lib/request.rb:9:in `initialize'
+  lib/test_app.rb:11:in `new'
+  lib/test_app.rb:11:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.4ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 23:18:23 -0400 2011
+
+NameError (undefined local variable or method `payset_payment_optionspreapprovalpayment_detailspreapproval_detailscancel_preapprovalconvert_currencyrefund' for #<Paypal::Request:0x1015a5bc0>):
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `eval'
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `each'
+  lib/request.rb:9:in `initialize'
+  lib/test_app.rb:11:in `new'
+  lib/test_app.rb:11:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.6ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 23:18:24 -0400 2011
+
+NameError (undefined local variable or method `payset_payment_optionspreapprovalpayment_detailspreapproval_detailscancel_preapprovalconvert_currencyrefund' for #<Paypal::Request:0x10117ccb0>):
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `eval'
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `each'
+  lib/request.rb:9:in `initialize'
+  lib/test_app.rb:11:in `new'
+  lib/test_app.rb:11:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.7ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 23:18:25 -0400 2011
+
+NameError (undefined local variable or method `payset_payment_optionspreapprovalpayment_detailspreapproval_detailscancel_preapprovalconvert_currencyrefund' for #<Paypal::Request:0x10109db28>):
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `eval'
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `each'
+  lib/request.rb:9:in `initialize'
+  lib/test_app.rb:11:in `new'
+  lib/test_app.rb:11:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.4ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 23:18:25 -0400 2011
+
+NameError (undefined local variable or method `payset_payment_optionspreapprovalpayment_detailspreapproval_detailscancel_preapprovalconvert_currencyrefund' for #<Paypal::Request:0x106755650>):
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `eval'
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `each'
+  lib/request.rb:9:in `initialize'
+  lib/test_app.rb:11:in `new'
+  lib/test_app.rb:11:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.7ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 23:18:25 -0400 2011
+
+NameError (undefined local variable or method `payset_payment_optionspreapprovalpayment_detailspreapproval_detailscancel_preapprovalconvert_currencyrefund' for #<Paypal::Request:0x1066b8b98>):
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `eval'
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `each'
+  lib/request.rb:9:in `initialize'
+  lib/test_app.rb:11:in `new'
+  lib/test_app.rb:11:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.5ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.7ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 23:18:25 -0400 2011
+
+NameError (undefined local variable or method `payset_payment_optionspreapprovalpayment_detailspreapproval_detailscancel_preapprovalconvert_currencyrefund' for #<Paypal::Request:0x10661c0e0>):
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `eval'
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `each'
+  lib/request.rb:9:in `initialize'
+  lib/test_app.rb:11:in `new'
+  lib/test_app.rb:11:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.5ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 23:18:26 -0400 2011
+
+NameError (undefined local variable or method `payset_payment_optionspreapprovalpayment_detailspreapproval_detailscancel_preapprovalconvert_currencyrefund' for #<Paypal::Request:0x10657f628>):
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `eval'
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `each'
+  lib/request.rb:9:in `initialize'
+  lib/test_app.rb:11:in `new'
+  lib/test_app.rb:11:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.9ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 23:18:27 -0400 2011
+
+NameError (undefined local variable or method `payset_payment_optionspreapprovalpayment_detailspreapproval_detailscancel_preapprovalconvert_currencyrefund' for #<Paypal::Request:0x1064db9d8>):
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `eval'
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `each'
+  lib/request.rb:9:in `initialize'
+  lib/test_app.rb:11:in `new'
+  lib/test_app.rb:11:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.3ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 23:18:27 -0400 2011
+
+NameError (undefined local variable or method `payset_payment_optionspreapprovalpayment_detailspreapproval_detailscancel_preapprovalconvert_currencyrefund' for #<Paypal::Request:0x10643ef20>):
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `eval'
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `each'
+  lib/request.rb:9:in `initialize'
+  lib/test_app.rb:11:in `new'
+  lib/test_app.rb:11:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.7ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 23:18:27 -0400 2011
+
+NameError (undefined local variable or method `payset_payment_optionspreapprovalpayment_detailspreapproval_detailscancel_preapprovalconvert_currencyrefund' for #<Paypal::Request:0x1063a2468>):
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `eval'
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `each'
+  lib/request.rb:9:in `initialize'
+  lib/test_app.rb:11:in `new'
+  lib/test_app.rb:11:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.8ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 23:18:27 -0400 2011
+
+NameError (undefined local variable or method `payset_payment_optionspreapprovalpayment_detailspreapproval_detailscancel_preapprovalconvert_currencyrefund' for #<Paypal::Request:0x106757180>):
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `eval'
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `each'
+  lib/request.rb:9:in `initialize'
+  lib/test_app.rb:11:in `new'
+  lib/test_app.rb:11:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.0ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 23:18:27 -0400 2011
+
+NameError (undefined local variable or method `payset_payment_optionspreapprovalpayment_detailspreapproval_detailscancel_preapprovalconvert_currencyrefund' for #<Paypal::Request:0x1066b07b8>):
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `eval'
+  lib/request.rb:9:in `initialize'
+  lib/request.rb:9:in `each'
+  lib/request.rb:9:in `initialize'
+  lib/test_app.rb:11:in `new'
+  lib/test_app.rb:11:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.3ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 23:22:00 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.9ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.7ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 23:22:04 -0400 2011
+
+NameError (undefined local variable or method `pay' for #<Paypal::Request:0x10183bc40>):
+  lib/request.rb:10:in `initialize'
+  lib/request.rb:10:in `eval'
+  lib/request.rb:10:in `initialize'
+  lib/request.rb:10:in `each'
+  lib/request.rb:10:in `initialize'
+  lib/request.rb:9:in `each'
+  lib/request.rb:9:in `initialize'
+  lib/test_app.rb:11:in `new'
+  lib/test_app.rb:11:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.6ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 23:22:07 -0400 2011
+
+NameError (undefined local variable or method `pay' for #<Paypal::Request:0x10159eed8>):
+  lib/request.rb:10:in `initialize'
+  lib/request.rb:10:in `eval'
+  lib/request.rb:10:in `initialize'
+  lib/request.rb:10:in `each'
+  lib/request.rb:10:in `initialize'
+  lib/request.rb:9:in `each'
+  lib/request.rb:9:in `initialize'
+  lib/test_app.rb:11:in `new'
+  lib/test_app.rb:11:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.5ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 23:35:17 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 16 23:35:23 -0400 2011
+Rendered test_app/index.html.haml (1.4ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 23:35:25 -0400 2011
+
+NameError (uninitialized constant Paypal::RequestHash::Response):
+  lib/request.rb:24:in `initialize'
+  lib/request.rb:24:in `each'
+  lib/request.rb:24:in `initialize'
+  lib/request.rb:15:in `new'
+  lib/request.rb:15:in `pay'
+  lib/test_app.rb:26:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.0ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 23:36:45 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.9ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.9ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 23:36:46 -0400 2011
+
+NoMethodError (undefined method `define_command' for Paypal::Request:Class):
+  lib/request.rb:24:in `initialize'
+  lib/request.rb:24:in `each'
+  lib/request.rb:24:in `initialize'
+  lib/request.rb:15:in `new'
+  lib/request.rb:15:in `pay'
+  lib/test_app.rb:26:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.4ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 23:38:44 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.6ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.9ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Mon May 16 23:38:46 -0400 2011
+
+
+Started GET "/download" for 127.0.0.1 at Mon May 16 23:39:55 -0400 2011
+Rendered test_app/download.html.haml (1.2ms)

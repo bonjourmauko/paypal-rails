@@ -1,5 +1,5 @@
 module Paypal 
-  class IpnEndpoint
+  class IpnListener
     def self.call(env)
       request = Rack::Request.new(env)
       params = request.params

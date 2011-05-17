@@ -1,40 +1,36 @@
 module Paypal
   class Request
-    
-    REQUESTS = [
-        { :name => 'pay', :response => true },
-        { :name => 'set_payment_options', :response => true },
-        { :name => 'preapproval', :response => true },
-        { :name => 'payment_details', :response => false },
-        { :name => 'preapproval_details', :response => false },
-        { :name => 'cancel_preapproval', :response => false },
-        { :name => 'convert_currency', :response => false },
-        { :name => 'refund', :response => false }
-      ]
-    
     def initialize
-      @config = Paypal::Config.new
+      @settings = Paypal::Settings.new
       @env    = Rails.env
       REQUESTS.each { |request| Request.define_request request }
     end
     
     def self.define_request(request)
-      define_method(request[:name]) do |data|
-        raise Exception unless data
-        response_data = self.send("api_call", data, "/AdaptivePayments/#{request[:name].camelcase}")
-        return Paypal::Response.new(response_data, @env) if request[:response]
+      define_method(request[:name]) do |request_data|
+        path = "/AdaptivePayments/#{request[:name].camelcase}"
+        request_data = JSON.unparse(request_data)
+        response_data = Paypal::HttpConnection.new.api_call(path, request_data, @settings.headers)
+        response_data = JSON.parse(response_data)
+        return Paypal::RequestHash.new(response_data) if request[:request_hash]
         response_data
       end
     end
+  end
+  
+  class RequestHash < Hash
+    def initialize(response_data)
+      @settings = Paypal::Settings.new
+      COMMANDS.each { |command| RequestHash.define_command command }
+      self.merge!(response_data)
+    end
     
-    def api_call(data, path)
-      request_data = JSON.unparse(data)
-      url = URI.parse @config.api_base_url
-      http = Net::HTTP.new(url.host, 443)
-      #http.use_ssl = false
-      #http.verify_mode = OpenSSL::SSL::VERIFY_NONE
-      response_data = http.post(path, request_data, @config.headers)
-      JSON.parse(response_data)
+    def self.define_command(command)
+      define_method("#{command[:name]}_url") do
+        key_value = self["#{command[:key_name]}"] rescue nil
+        return "#{@settings.paypal_base_url}/webscr?cmd=_ap-#{command[:name]}&#{command[:key_name].downcase}=#{key_value}" if key_value
+        nil
+      end
     end
     
     def success?
@@ -44,6 +40,5 @@ module Paypal
     def errors
       self['error'].inspect rescue nil
     end
-    
   end
 end
