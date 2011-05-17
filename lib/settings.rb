@@ -1,18 +1,23 @@
+require 'yaml'
+require 'json'
+require 'net/http'
+require 'net/https'
+
 module Paypal
   REQUESTS = [
-      { :name => 'pay',                 :request_hash => true }#,
-      #{ :name => 'set_payment_options', :request_hash => true },
-      #{ :name => 'preapproval',         :request_hash => true },
-      #{ :name => 'payment_details',     :request_hash => false },
-      #{ :name => 'preapproval_details', :request_hash => false },
-      #{ :name => 'cancel_preapproval',  :request_hash => false },
-      #{ :name => 'convert_currency',    :request_hash => false },
-      #{ :name => 'refund',              :request_hash => false }
+      { :name => 'pay',                 :request_hash => true },
+      { :name => 'set_payment_options', :request_hash => true },
+      { :name => 'preapproval',         :request_hash => true },
+      { :name => 'payment_details',     :request_hash => false },
+      { :name => 'preapproval_details', :request_hash => false },
+      { :name => 'cancel_preapproval',  :request_hash => false },
+      { :name => 'convert_currency',    :request_hash => false },
+      { :name => 'refund',              :request_hash => false }
     ] unless defined? REQUESTS
     
   COMMANDS = [
       { :name => 'payment',     :key_name => 'payKey' },
-      #{ :name => 'preapproval', :key_name => 'preapprovalKey' }
+      { :name => 'preapproval', :key_name => 'preapprovalKey' }
     ] unless defined? COMMANDS
     
   BASE_MAPPINGS = [

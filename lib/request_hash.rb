@@ -1,5 +1,6 @@
 module Paypal
   class RequestHash < Hash
+
     def initialize(response_data)
       @@settings ||= Paypal::Settings.new
       COMMANDS.each { |command| RequestHash.define_command command }
@@ -21,5 +22,6 @@ module Paypal
     def errors
       self['error'].inspect rescue nil
     end
+
   end
 end

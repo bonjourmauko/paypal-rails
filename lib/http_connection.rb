@@ -3,7 +3,7 @@ module Paypal
         
     def initialize
       @@settings ||= Paypal::Settings.new
-      BASE_MAPPINGS.each { |base_name| HttpConnection.define_base_name base_name}
+      BASE_MAPPINGS.each { |base_name| HttpConnection.define_base_name base_name }
     end
     
     def self.define_base_name(base_name)

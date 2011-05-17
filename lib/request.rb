@@ -1,5 +1,6 @@
 module Paypal
   class Request
+
     def initialize
       @@settings ||= Paypal::Settings.new
       REQUESTS.each { |request| Request.define_request request }
@@ -15,5 +16,12 @@ module Paypal
         response_data
       end
     end
+    
+    def send_back(data)
+      path = "#{@@settings.paypal_base_url}/cgi-bin/webscr"
+      request_data = "cmd=_notify-validate&#{data}"
+      Paypal::HttpConnection.new.paypal_call(path, request_data, nil)
+    end
+    
   end
 end
