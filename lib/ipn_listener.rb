@@ -4,15 +4,16 @@ module Paypal
       request = Rack::Request.new(env)
       params = request.params
       ipn = Paypal::IpnNotification.new
-      ipn.send_back(env['rack.request.form_vars'])
+      response = ipn.send_back(env['rack.request.form_vars'])
+      
+      ## for db check
+      #if ipn.verified?
+      #  output = "Verified."
+      #else
+      #  output = "Not Verified."
+      #end
 
-      if ipn.verified?
-        output = "Verified."
-      else
-        output = "Not Verified."
-      end
-
-      [200, {"Content-Type" => "text/html"}, [output]]
+      [200, {"Content-Type" => "text/html"}, [""]]
     end
   end 
 end

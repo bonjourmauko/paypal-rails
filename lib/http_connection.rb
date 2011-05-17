@@ -2,13 +2,13 @@ module Paypal
   class HttpConnection
         
     def initialize
-      @settings = Paypal::Settings.new
+      @@settings ||= Paypal::Settings.new
       BASE_MAPPINGS.each { |base_name| HttpConnection.define_base_name base_name}
     end
     
     def self.define_base_name(base_name)
       define_method("#{base_name}_call") do |path, data, headers|
-        url = eval "URI.parse @settings.#{base_name}_base_url"
+        url = eval "URI.parse @@settings.#{base_name}_base_url"
         http = Net::HTTP.new(url.host, 443)
         http.use_ssl = true
         http.verify_mode = OpenSSL::SSL::VERIFY_NONE
