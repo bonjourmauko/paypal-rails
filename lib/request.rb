@@ -22,6 +22,6 @@ module Paypal
       request_data = "cmd=_notify-validate&#{data}"
       Paypal::HttpConnection.new.paypal_call(path, request_data, nil)
     end
-    
+      
   end
 end
