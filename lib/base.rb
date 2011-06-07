@@ -1,6 +1,5 @@
 module AdaptivePayments
   class Base
-    
     def initialize
       @@settings    ||= self.load File.join(Rails.root, 'config', 'paypal.yml')
       @@env         ||= Rails.env
@@ -28,14 +27,8 @@ module AdaptivePayments
     
     def self.define_call(base_call, base_url)
       define_method(base_call) do |path, data, headers|
-        url = URI.parse base_url
-        http = Net::HTTP.new(url.host, 443)
-        http.use_ssl = true
-        http.verify_mode = OpenSSL::SSL::VERIFY_NONE
-        resp, response_data = http.post(path, data, headers)
-        response_data
+        Nestful.post "#{base_url}#{path}", :params => data, :headers => headers
       end
-    end
-    
+    end  
   end
 end

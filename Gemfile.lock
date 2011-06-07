@@ -54,10 +54,9 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.16)
-    monster_mash (0.2.3)
-      typhoeus (>= 0.2.4)
-      typhoeus (>= 0.2.4)
     mysql2 (0.2.7)
+    nestful (0.0.6)
+      activesupport (>= 3.0.0.beta)
     polyglot (0.3.1)
     rack (1.2.2)
     rack-mount (0.6.14)
@@ -83,9 +82,6 @@ GEM
     thor (0.14.6)
     treetop (1.4.9)
       polyglot (>= 0.3.1)
-    typhoeus (0.2.4)
-      mime-types
-      mime-types
     tzinfo (0.3.27)
     yajl-ruby (0.8.2)
 
@@ -97,8 +93,8 @@ DEPENDENCIES
   haml
   haml-rails
   jquery-rails
-  monster_mash
   mysql2 (< 0.3)
+  nestful
   rails (= 3.0.7)
   simple_form
   yajl-ruby

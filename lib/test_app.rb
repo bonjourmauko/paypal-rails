@@ -8,7 +8,7 @@ class TestApp < ActionController::Metal
   end
   
   def buy
-    request = AdaptivePayments::Request.new
+    request = AdaptivePayments::Transaction.new
 
     data = {
       "returnUrl" => "http://localhost:3000/download", 
@@ -24,7 +24,12 @@ class TestApp < ActionController::Metal
     }
 
     request.pay(data)
-    redirect_to request.payment_url
+    
+    if request.success?
+      redirect_to request.payment_url
+    else
+      raise "#{request.errors}"
+    end
   end
   
   

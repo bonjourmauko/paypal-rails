@@ -4056,3 +4056,58 @@ Rendered test_app/index.html.haml (1.4ms)
 
 
 Started GET "/buy" for 127.0.0.1 at Tue Jun 07 15:18:33 -0400 2011
+
+
+Started GET "/" for 127.0.0.1 at Tue Jun 07 15:21:24 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (98.7ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (106.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jun 07 15:21:26 -0400 2011
+Rendered test_app/index.html.haml (1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jun 07 15:21:27 -0400 2011
+Rendered test_app/index.html.haml (1.6ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 15:21:28 -0400 2011
+
+
+Started GET "/" for 127.0.0.1 at Tue Jun 07 15:36:03 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (110.7ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (118.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jun 07 15:36:05 -0400 2011
+Rendered test_app/index.html.haml (1.4ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 15:36:06 -0400 2011
+
+
+Started GET "/" for 127.0.0.1 at Tue Jun 07 15:57:20 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (109.5ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (117.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jun 07 15:57:22 -0400 2011
+Rendered test_app/index.html.haml (1.5ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 15:57:23 -0400 2011
