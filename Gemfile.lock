@@ -48,13 +48,15 @@ GEM
     jquery-rails (1.0.1)
       railties (~> 3.0)
       thor (~> 0.14)
-    json (1.5.1)
     mail (2.2.19)
       activesupport (>= 2.3.6)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.16)
+    monster_mash (0.2.3)
+      typhoeus (>= 0.2.4)
+      typhoeus (>= 0.2.4)
     mysql2 (0.2.7)
     polyglot (0.3.1)
     rack (1.2.2)
@@ -81,7 +83,11 @@ GEM
     thor (0.14.6)
     treetop (1.4.9)
       polyglot (>= 0.3.1)
+    typhoeus (0.2.4)
+      mime-types
+      mime-types
     tzinfo (0.3.27)
+    yajl-ruby (0.8.2)
 
 PLATFORMS
   ruby
@@ -91,7 +97,8 @@ DEPENDENCIES
   haml
   haml-rails
   jquery-rails
-  json
+  monster_mash
   mysql2 (< 0.3)
   rails (= 3.0.7)
   simple_form
+  yajl-ruby

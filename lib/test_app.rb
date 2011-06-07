@@ -4,7 +4,11 @@ class TestApp < ActionController::Metal
   append_view_path "#{Rails.root}/app/views"
   
   def index
-    pay_request = Paypal::Request.new
+    render
+  end
+  
+  def buy
+    request = AdaptivePayments::Request.new
 
     data = {
       "returnUrl" => "http://localhost:3000/download", 
@@ -19,9 +23,11 @@ class TestApp < ActionController::Metal
       "ipnNotificationUrl"=>"http://localhost:3000/ipn_listener"
     }
 
-    @pay_response = pay_request.pay(data)
-    render
+    request.pay(data)
+    redirect_to request.payment_url
   end
+  
+  
   
 #  def buy
     #if pay_response.success?

@@ -3126,3 +3126,392 @@ Migrating to CreateIpns (20110519025313)
 
 
 Started GET "/ipn_listener" for 127.0.0.1 at Wed May 18 23:05:10 -0400 2011
+
+
+Started GET "/" for 127.0.0.1 at Tue Jun 07 10:22:29 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (16.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (59.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jun 07 10:22:34 -0400 2011
+Rendered test_app/index.html.haml (1.5ms)
+
+ActionView::Template::Error (undefined method `payment_url' for nil:NilClass):
+    1: %h1 wena choro
+    2: %p= link_to "comprar un libro", @pay_response.payment_url
+  app/views/test_app/index.html.haml:2:in `_app_views_test_app_index_html_haml___1971382725_2159462140_0'
+  lib/test_app.rb:7:in `index'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jun 07 10:22:37 -0400 2011
+Rendered test_app/index.html.haml (1.5ms)
+
+ActionView::Template::Error (undefined method `payment_url' for nil:NilClass):
+    1: %h1 wena choro
+    2: %p= link_to "comprar un libro", @pay_response.payment_url
+  app/views/test_app/index.html.haml:2:in `_app_views_test_app_index_html_haml___1971382725_2156628840_0'
+  lib/test_app.rb:7:in `index'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jun 07 10:22:38 -0400 2011
+Rendered test_app/index.html.haml (2.2ms)
+
+ActionView::Template::Error (undefined method `payment_url' for nil:NilClass):
+    1: %h1 wena choro
+    2: %p= link_to "comprar un libro", @pay_response.payment_url
+  app/views/test_app/index.html.haml:2:in `_app_views_test_app_index_html_haml___1971382725_2156119940_0'
+  lib/test_app.rb:7:in `index'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jun 07 10:24:22 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.5ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jun 07 10:24:24 -0400 2011
+Rendered test_app/index.html.haml (1.5ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 10:24:26 -0400 2011
+
+NameError (uninitialized constant Paypal::Request):
+  lib/test_app.rb:11:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jun 07 10:25:01 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.6ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jun 07 10:25:02 -0400 2011
+Rendered test_app/index.html.haml (1.3ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 10:25:04 -0400 2011
+
+NameError (`@@api_base_url' is not allowed as an instance variable name):
+  lib/base.rb:14:in `instance_variable_set'
+  lib/base.rb:14:in `initialize'
+  lib/base.rb:11:in `each'
+  lib/base.rb:11:in `initialize'
+  lib/request.rb:6:in `new'
+  lib/request.rb:6:in `initialize'
+  lib/test_app.rb:11:in `new'
+  lib/test_app.rb:11:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.5ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jun 07 10:25:58 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jun 07 10:25:59 -0400 2011
+Rendered test_app/index.html.haml (1.3ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 10:26:01 -0400 2011
+
+NoMethodError (undefined method `unparse' for JSON:Module):
+  lib/request.rb:14:in `pay'
+  lib/test_app.rb:26:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jun 07 10:29:10 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jun 07 10:29:11 -0400 2011
+Rendered test_app/index.html.haml (2.0ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 10:29:12 -0400 2011
+
+NoMethodError (undefined method `api_base_url' for #<AdaptivePayments::Base:0x101660128>):
+  lib/http_connection.rb:10:in `api_call'
+  lib/request.rb:15:in `eval'
+  lib/http_connection.rb:10:in `api_call'
+  lib/request.rb:15:in `pay'
+  lib/test_app.rb:26:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.2ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 10:31:44 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jun 07 10:31:47 -0400 2011
+Rendered test_app/index.html.haml (2.3ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 10:31:49 -0400 2011
+
+NoMethodError (undefined method `payment_url' for nil:NilClass):
+  lib/test_app.rb:28:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.5ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.5ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 10:34:29 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.4ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.5ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 10:34:31 -0400 2011
+
+NameError (undefined local variable or method `pay_request' for #<TestApp:0x1016ed000>):
+  lib/test_app.rb:26:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.1ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 10:34:35 -0400 2011
+
+NameError (undefined local variable or method `pay_request' for #<TestApp:0x1011de780>):
+  lib/test_app.rb:26:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.7ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 10:34:36 -0400 2011
+
+NameError (undefined local variable or method `pay_request' for #<TestApp:0x1010c3530>):
+  lib/test_app.rb:26:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (110.0ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (120.7ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 10:34:36 -0400 2011
+
+NameError (undefined local variable or method `pay_request' for #<TestApp:0x106739d10>):
+  lib/test_app.rb:26:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.1ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 10:34:36 -0400 2011
+
+NameError (undefined local variable or method `pay_request' for #<TestApp:0x10669cc40>):
+  lib/test_app.rb:26:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 10:35:08 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.6ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.4ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 10:35:10 -0400 2011
+Rendered test_app/buy.html.haml (1.3ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 10:36:24 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.8ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.6ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 10:36:25 -0400 2011
+Rendered test_app/buy.html.haml (1.1ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 10:36:29 -0400 2011
+Rendered test_app/buy.html.haml (1.0ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 10:38:39 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.6ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.6ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 10:38:40 -0400 2011
+Rendered test_app/buy.html.haml (1.0ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 10:46:17 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.8ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.8ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 10:46:19 -0400 2011
+Rendered test_app/buy.html.haml (1.1ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 10:49:54 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 10:49:55 -0400 2011
+Rendered test_app/buy.html.haml (1.0ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 11:03:10 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.6ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.6ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 11:03:11 -0400 2011
+Rendered test_app/buy.html.haml (2.0ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 11:03:56 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.9ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.6ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 11:03:58 -0400 2011
+Rendered test_app/buy.html.haml (1.1ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 11:07:57 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.6ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 11:07:58 -0400 2011
+
+NoMethodError (undefined method `payment_url' for #<Hash:0x1016ccaf8>):
+  lib/test_app.rb:27:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.8ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 11:08:03 -0400 2011
+
+NoMethodError (undefined method `payment_url' for #<Hash:0x1011cf960>):
+  lib/test_app.rb:27:in `buy'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.5ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.5ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 11:09:37 -0400 2011
+
+NameError (undefined local variable or method `_routes' for TestApp:Class):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.6ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+
+
+Started GET "/buy" for 127.0.0.1 at Tue Jun 07 11:09:39 -0400 2011

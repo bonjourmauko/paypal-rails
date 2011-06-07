@@ -11,4 +11,5 @@ gem "simple_form"
 gem "compass", ">= 0.11.1"
 
 # paypal
-gem 'json'
+gem 'yajl-ruby'
+gem 'monster_mash'
