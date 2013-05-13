@@ -1,0 +1,19 @@
+credentials:
+  production:
+    username:       "asdfasdf"
+    password:       "asdfasdf"
+    signature:      "asdfasdf"
+    application_id: "asdfasdf"
+  development:
+    username:       "asdfasdf"
+    password:       "asdfasdf"
+    signature:      "asdfasdf"
+    application_id: "asdfasdf"
+
+base_url_mapping:
+  paypal:
+    production:     "asdfasdf"
+    development:    "asdfasdf"
+  api:
+    production:     "asdfasdf"
+    development:    "asdfasdf"
